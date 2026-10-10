@@ -1,0 +1,5 @@
+# Pi-Bolt preserves Pi's non-interactive print mode. Use the absolute path
+# because setup installs into ~/.local/bin and sbx exec need not inherit a
+# login-shell PATH.
+binary: /home/agent/.local/bin/pi-bolt
+promptArgs: ["-p"]
